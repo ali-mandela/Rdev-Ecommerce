@@ -1,0 +1,124 @@
+.footer{
+    height: 30px;
+    padding:2px 40px; 
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(181,181,181,1) 0%, rgba(168,168,168,1) 66%, rgba(207,207,207,1) 95%, rgba(183,183,183,1) 100%, rgba(255,255,255,0.4290091036414566) 100%);
+    
+
+    & div{
+        display: flex;
+        gap: 20px;
+
+        & i{
+            font-size: 1.3rem;
+            transition: .3s all ease-in-out;
+            &:hover{
+                color: aliceblue;
+            }
+        }
+    }
+}
+
+.header{
+    padding:2px 40px; 
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(181,181,181,1) 0%, rgba(168,168,168,1) 66%, rgba(207,207,207,1) 95%, rgba(183,183,183,1) 100%, rgba(255,255,255,0.4290091036414566) 100%);
+    & h1{
+        font-size: 2rem;
+    }
+
+    & div{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    width: 340px; 
+
+    &:hover{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+      
+  .productImage {
+    width: 300px;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  .productCat{
+    color: black;
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  .productName {
+    margin-top: 8px;
+    font-size: 18px;
+  }
+  
+  .productPrice {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #0070f3;
+  }
+  
+  .productActions {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .quantityInput {
+    width: 60px;
+    padding: 8px;
+    margin-right: 16px;
+  }
+  
+  .addToCartButton {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .viewProductButton{
+    padding: 8px 16px;
+    background-color: rgb(100, 150, 26);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover{
+        background-color:rgb(116, 177, 24) ;
+    }
+
+    & a{
+        color: #fff;
+    }
+  }
+  
+  .addToCartButton:hover {
+    background-color: #0056b3;
+  }
+  
+  }

@@ -1,0 +1,122 @@
+.cartContainer {
+    padding: 10px 40px;
+    min-height: calc(100vh - 100px);
+
+    & h2{
+        padding: 20px 0;
+        font-size: 1.3rem;
+    }
+  }
+  
+  .cartTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cartTable th, .cartTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .cartTable th {
+    background-color: #f2f2f2;
+  }
+  .address{
+    display: flex;
+    flex-direction: column;gap: 10px;
+    padding: 20px 0;
+    & input{
+      outline: none;
+      height: 40px;
+      padding: 0 6px;
+    }
+  }
+  .productImage {
+    width: 50px;
+    height: auto;
+  }
+  
+  .removeButton {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
+  .checkoutButton{
+    background-color: #086022;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+  }
+  
+  .totalContainer {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+/* method of payment */
+  .paymentContainer{
+    background-color: #f9f9f9;
+    padding: 20px 40px;
+    min-height: calc(100vh - 100px);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .paymentDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .paymentOptions {
+    margin-top: 20px;
+  }
+  
+  .paymentButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .paymentButton:hover {
+    background-color: #0056b3;
+  }
+  /* Myorders */
+
+  .myOrdersContainer {
+    padding:10px 40px;
+    min-height: calc(100vh - 100px);
+    .orderTable {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      
+      .orderTable th, .orderTable td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+      }
+      
+      .actionButton {
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .actionButton:hover {
+        background-color: #0056b3;
+      }
+      
+  }
+  

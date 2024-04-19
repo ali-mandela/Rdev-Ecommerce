@@ -1,0 +1,54 @@
+.homePage{
+    padding: 1px 40px;
+    min-height: calc(100vh - 100px);
+
+    .admin{
+        & h1{
+            font-size: 2rem;
+        padding: 10px 0;
+
+        }
+    }
+
+    & h1{
+        padding: 10px 0;
+        font-size: 1.2rem;
+    }
+    .productMain{
+        & div{
+            display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+    }
+
+     
+
+}
+/* searxh */
+.search {
+    margin-bottom: 20px;
+  }
+  
+  .searchForm {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  

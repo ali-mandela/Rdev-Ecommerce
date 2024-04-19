@@ -1,0 +1,31 @@
+
+.main {
+    padding: 10px 40px;
+    min-height: calc(100vh - 100px);
+
+    & h1 {
+        font-size: 1.5rem;
+    }
+
+    .category {
+        display: flex;
+        gap: 20px;
+        padding: 20px 0;
+        & p {
+            cursor: pointer;
+            border: solid 1px green;
+            padding: 4px 10px;
+            border-radius: 8px;
+        }
+    }
+
+    .categoryProducts {
+        padding: 30px 0;
+
+        & div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}

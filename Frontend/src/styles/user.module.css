@@ -1,0 +1,54 @@
+.mainProduct {
+    display: flex;
+    height: calc(100vh - 100px);
+}
+
+.mainProduct .section1 {
+    flex: 1;
+}
+
+.mainProduct .section1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 16px;
+    border-radius: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.mainProduct .section1 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mainProduct .section2 {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainProduct .section2 h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.mainProduct .section2 p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.mainProduct .section2 button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mainProduct .section2 button:hover {
+    background-color: #0056b3;
+}
