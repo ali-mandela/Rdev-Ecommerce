@@ -214,8 +214,8 @@ const payLaterController = async (req, res) => {
         payment_method_types: ['card'], // Array of accepted payment methods
         line_items: lineItems,
         mode: "payment",
-        success_url: "http://localhost:5173/success",
-        cancel_url: "http://localhost:5173/cancel",
+        success_url: "https://r-store-liard.vercel.app/success",
+        cancel_url: "https://r-store-liard.vercel.app/cancel",
       });
   
       if (session.id) {
