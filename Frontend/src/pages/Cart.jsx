@@ -6,7 +6,7 @@ import styles from '../styles/cart.module.css'
 const Cart = () => {
   const nav = useNavigate();
   const { cart,incrementInCart,decrementInCart ,deleteFromCart} = useUserContext();
-  const URL ='http://localhost:8000/uploads/';
+  const URL ='https://rdev-ecommerce.onrender.com/uploads/';
 
   const handleCheckout=()=>{
     nav('/user/payment-option')

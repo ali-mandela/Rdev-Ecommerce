@@ -6,7 +6,7 @@ import styles from '../styles/component.module.css';
 const ProductComponent = ({product}) => {
     
     const { handleAddToCart } = useUserContext();
-    const URL ='http://localhost:8000/uploads/';
+    const URL ='https://rdev-ecommerce.onrender.com/uploads/';
     let quantity =1;
   return (
     <div className={styles.product}>

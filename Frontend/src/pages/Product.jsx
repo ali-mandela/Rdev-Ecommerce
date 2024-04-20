@@ -8,7 +8,7 @@ const Product = () => {
     const { products, setProducts } = useUserContext();
     const navigate = useNavigate();
 
-    const URL ='http://localhost:8000/uploads';
+    const URL ='https://rdev-ecommerce.onrender.com/uploads';
 
     useEffect(() => {
         const fetchProducts = async () => {

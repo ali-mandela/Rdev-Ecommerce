@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 import styles from '../styles/user.module.css'
 import { useUserContext } from "../../context/userContext";
-const URL = 'http://localhost:8000/uploads';
+const URL = 'https://rdev-ecommerce.onrender.com/uploads';
  
 const SinglrProduct = () => {
     const { id } = useParams();

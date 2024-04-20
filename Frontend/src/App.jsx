@@ -24,7 +24,7 @@ import {loadStripe} from '@stripe/stripe-js';
 import Cancel from "./pages/Cancel";
 import Success from "./pages/Success";
 import Forgot from "./pages/Forgot";
-axios.defaults.baseURL ='http://localhost:8000/api/v1/';
+axios.defaults.baseURL ='https://rdev-ecommerce.onrender.com/api/v1/';
 
 function App() {
   const stripePromise = loadStripe('pk_test_51Or05pSD9GFPRtaaCJ90Cs3TMpKrrmCKC9rMxGTcEk6ZmrcLzynyXBjDBjUbU5Ar68KySQiS9D6BD3x8XGtCSgI900XtRCWlWo')

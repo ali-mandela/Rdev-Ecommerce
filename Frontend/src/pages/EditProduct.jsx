@@ -16,7 +16,7 @@ const EditProduct = () => {
     const [category, setCategory] = useState('');
     const [fileName, setFileName] = useState('');
     const nav = useNavigate();
-    const URLL = 'http://localhost:8000/uploads';
+    const URLL = 'https://rdev-ecommerce.onrender.com/uploads';
     const [isImageChanged, setIsImageChanged] = useState(false);
 
     useEffect(() => {
